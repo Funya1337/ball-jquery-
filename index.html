@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ballJquery</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+    $(document).ready(function() { // эта часть всегда пишется
+      // тут пишем методы
+      $(".my_class1").click(function(){
+          $(".my_class1").hide();
+          $(".my_class2").show();
+      });
+      $(".my_class2").click(function(){
+          $(".my_class1").show();
+          $(".my_class2").hide();
+      });
+    }); // эта закрывающая скобка тоже
+    </script>
+  </head>
+  <body>
+    <center>
+    <div class="block-left">
+      <div class="my_class1"><img src="img/icons8-soccer-ball-filled-50.png"></div>
+    </div>
+  </center>
+  <center>
+    <div class="block-right">
+      <div class="my_class2"><img src="img/icons8-soccer-ball-filled-50.png"></div>
+    </div>
+  </center>
+  </body>
+</html>
