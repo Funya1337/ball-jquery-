@@ -1,0 +1,16 @@
+.my_class2 {
+  display: none;
+}
+
+.outer {
+  display: flex;
+}
+
+.block {
+  width:50%;
+}
+
+.my_class {
+  width: 50px;
+  margin: auto;
+}
